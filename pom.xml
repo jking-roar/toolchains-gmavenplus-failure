@@ -46,6 +46,11 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <targetBytecode>
+                        1.8
+                    </targetBytecode>
+                </configuration>
 
                 <dependencies>
                     <dependency>
