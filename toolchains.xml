@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolchains>
+    <toolchain>
+        <type>jdk</type>
+        <provides>
+            <version>1.6</version>
+        </provides>
+        <configuration>
+            <!--Put your path to java 6 here.-->
+            <jdkHome>/usr/lib/jvm/java-6-oracle</jdkHome>
+        </configuration>
+    </toolchain>
+    <toolchain>
+        <type>jdk</type>
+        <provides>
+            <version>1.8</version>
+        </provides>
+        <configuration>
+            <!--Put your path to java 8 here.-->
+            <jdkHome>/usr/lib/jvm/java-8-oracle</jdkHome>
+        </configuration>
+    </toolchain>
+</toolchains>
